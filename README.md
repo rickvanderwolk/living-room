@@ -1,8 +1,10 @@
-# Philips Hue ambient music
+# Living room
 
 ![Preview](assets/preview-optimized.png)
 
-Ambient music generator driven by Philips Hue.
+A living soundscape that slowly composes itself,
+letting you experience your room differently.
+Using Philips Hue.
 
 ## Setup
 
