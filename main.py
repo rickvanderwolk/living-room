@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ambient Music Generator - Creates music from Philips Hue lamp states and sensors."""
+"""Living room - a living soundscape that slowly composes itself as the room changes."""
 
 import time
 import argparse
@@ -68,7 +68,7 @@ def print_status(params_list, env, sensors, engine, bridge_ip: str = "", last_po
 
     total_width = WIDTH + 2  # Total box width including borders
     print("=" * total_width)
-    title = "AMBIENT MUSIC GENERATOR"
+    title = "LIVING ROOM"
     padding = (total_width - len(title)) // 2
     print(" " * padding + title)
     print("=" * total_width)
@@ -186,7 +186,7 @@ def print_status(params_list, env, sensors, engine, bridge_ip: str = "", last_po
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate ambient music from Philips Hue")
+    parser = argparse.ArgumentParser(description="Living room - a living soundscape that slowly composes itself as the room changes")
     parser.add_argument("--mock", action="store_true", help="Use mock data (no Hue Bridge needed)")
     parser.add_argument("--quiet", action="store_true", help="Don't print status")
     args = parser.parse_args()
@@ -209,7 +209,7 @@ def main():
         print("Failed to start audio engine")
         sys.exit(1)
 
-    print("Ambient Music Generator started!")
+    print("Living room started!")
     print("Listening to your lights and sensors...\n")
 
     # Track connection errors and stats

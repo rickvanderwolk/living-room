@@ -1,4 +1,6 @@
-"""Configuration for Ambient Music generator.
+"""Configuration for Living room.
+
+A living soundscape that slowly composes itself as the room changes.
 
 All Hue Bridge settings (IP, API key) are auto-discovered and stored
 in .hue_config.json which is gitignored.

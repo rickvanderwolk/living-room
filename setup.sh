@@ -1,9 +1,9 @@
 #!/bin/bash
-# Setup script for Ambient Music Generator
+# Setup script for Living room
 
 cd "$(dirname "$0")"
 
-echo "Setting up Ambient Music..."
+echo "Setting up Living room..."
 
 # Create virtual environment if it doesn't exist
 if [ ! -d "venv" ]; then
