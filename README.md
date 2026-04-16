@@ -2,9 +2,7 @@
 
 ![Preview](assets/preview-optimized.png)
 
-A living soundscape that slowly composes itself,
-letting you experience your room differently.
-Using Philips Hue.
+A living soundscape that slowly composes itself as the room changes.
 
 ## Setup
 
